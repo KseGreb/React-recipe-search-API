@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Recipe search app 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟Hi guys! 🌟 
 
-## Available Scripts
+Do you love cooking as much as I do? 🍽️🕒🥦
+Do you struggle deciding what to make for dinner tonight?
 
-In the project directory, you can run:
+No more hustle thinking what to cook - In my journey of learning the React ecosystem, I have created a recipe search app using React hooks like useState and useEffect. 🍽️🔍 
 
-### `npm start`
+1️⃣ First, I connected my app to a large recipe platform through an API, allowing users to access a wide variety of delicious recipes. 🌍🍲
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2️⃣ Next, I utilized PROPS to connect different components within the app, making it seamless and efficient. 🔄💡
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+But that's not all! I wanted to make this app truly engaging and user-friendly.  So, I added some exciting features and made sure it stands out from the crowd.
 
-### `npm test`
+🌟 With a clean and intuitive interface, users can easily search for their favorite recipes or explore new ones. 🥘🔎
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌟 The app dynamically updates the search results - you even can type ALL the ingredients you want to use  and then hit the search button - and the recipes with ALL of your desired ingredients will show up!  ⚡️📲
 
-### `npm run build`
+🌟 To enhance the user experience, I incorporated React hooks such as useState and useEffect, ensuring smooth and efficient data handling. 💪🧠
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🌟 And of course, I couldn't forget to sprinkle in some delightful animations, making the app visually appealing and engaging. ✨🎉
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔥 So, if you're ready to embark on a culinary adventure, join me and explore the world of flavours with my recipe search app built using React hooks and connected to a vast recipe platform through an API! 🌍🍴
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Check it out here:   https://recipe-search-app-with-react.netlify.app/
