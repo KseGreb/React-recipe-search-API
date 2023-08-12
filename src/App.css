@@ -13,6 +13,7 @@ video {
 .container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .search {
   width: 100%;
@@ -49,4 +50,8 @@ button {
 }
 img{
   border-radius: 15px;
+}
+.extra{
+  margin-top: 15px;
+  margin-bottom: 0;
 }

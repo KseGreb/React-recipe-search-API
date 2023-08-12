@@ -20,6 +20,7 @@ function App() {
       const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${wordSubmitted}&app_id=${MY_ID}&app_key=${MY_KEY}`)
       const data = await response.json();
       setMyRecipes(data.hits)
+      console.log(data.hits)
     }
     getRecipe()
   }, [wordSubmitted]);
@@ -62,6 +63,7 @@ function App() {
           image={element.recipe.image} 
           ingredients={element.recipe.ingredientLines}
           url={element.recipe.url}
+          people={element.recipe.yield}
         />
     ))}
   

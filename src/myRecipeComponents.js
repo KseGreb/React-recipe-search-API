@@ -1,4 +1,4 @@
-function MyRecipesComponents({label, calories, image, ingredients, url}){
+function MyRecipesComponents({label, calories, image, ingredients, url, people}){
 
     return(
         <div>
@@ -10,7 +10,10 @@ function MyRecipesComponents({label, calories, image, ingredients, url}){
                 <a href={url}><img src={image} alt="food"/></a>
             </div>
             <div className="container">
-                <h3>{calories.toFixed()} calories</h3>
+                <h3 className="extra">This meal is for {people} people</h3>
+            </div>
+            <div className="container">
+                <h3 className="">{calories.toFixed()} calories </h3>
                 {/* <h3>{Math.round(calories)} calories</h3> */}
             </div>
             
@@ -22,8 +25,6 @@ function MyRecipesComponents({label, calories, image, ingredients, url}){
                         </li>
                     ))}
                 </ul>
-            
-
         </div>
     )
 }
