@@ -2,7 +2,7 @@
 // import { Redirect } from 'react-router-dom';
 
 
-function MyRecipesComponents({label, calories, image, ingredients, direction}){
+function MyRecipesComponents({label, calories, image, ingredients, direction, url}){
 
     return(
         <div>
@@ -10,7 +10,7 @@ function MyRecipesComponents({label, calories, image, ingredients, direction}){
                 <h2>{label}</h2>
             </div>
             <div className="container">
-                <img src={image} alt="food"/>
+            <a href={url}><img src={image} alt="food"/></a>
             </div>
             <div className="container">
                 <ul className="list">
@@ -25,9 +25,6 @@ function MyRecipesComponents({label, calories, image, ingredients, direction}){
             <div className="container">
                 <h3>{calories.toFixed()} calories</h3>
                 {/* <h3>{Math.round(calories)} calories</h3> */}
-            </div>
-            <div className="container">
-                
             </div>
         </div>
     )

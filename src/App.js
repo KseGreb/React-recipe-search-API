@@ -12,7 +12,7 @@ function App() {
 
   const [mySearch, setMySearch] = useState("");
   const [myRecipes, setMyRecipes] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState("salad");
+  const [wordSubmitted, setWordSubmitted] = useState("chicken");
 
 
   useEffect( ()=>{
@@ -62,7 +62,7 @@ function App() {
           calories={element.recipe.calories} 
           image={element.recipe.image} 
           ingredients={element.recipe.ingredientLines}
-          direction={element.recipe.totalNutrients.url}
+          url={element.recipe.url}
         />
     ))}
   
